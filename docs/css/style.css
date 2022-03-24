@@ -69,7 +69,7 @@ body {
   font-size: 16px;
 }
 .index .img1 {
-  background-image: url("../img/image 2.png");
+  background-image: url("https://norrthh.github.io/space.github.io/img/image 2.png");
   height: 1006px;
   background-size: cover;
   background-position: center;
@@ -109,7 +109,7 @@ body {
   color: var(--first-color);
 }
 .info .img2 {
-  background-image: url(../img/image-removebg-preview\ 1.png);
+  background-image: url(https://norrthh.github.io/space.github.io/img/image-removebg-preview\ 1.png);
   height: 1595px;
   background-position: center;
 }
@@ -119,7 +119,7 @@ footer {
   padding-bottom: 130px;
 }
 footer .logo {
-  background-image: url(../img/logo.svg);
+  background-image: url(https://norrthh.github.io/space.github.io/img/logo.svg);
   height: 20px;
   background-position: center;
   background-repeat: no-repeat;
