@@ -34,6 +34,10 @@ body {
     transition: 0.15s;
 }
 
+.fa-solid {
+    color: white;
+}
+
 .navbar-nav {
     margin: auto;
 }
@@ -79,29 +83,26 @@ body {
 
     .img1 {
         background-image: url("../img/image 2.png");
-        height: 1006px;
+        // height: 1006px;
         background-size: cover;
         background-position: center;
     }
 }
 
 .info {
-    .down {
+    .infos {
+        padding-top: 50px;
         color: #fff;
-        padding-top: 520px;
-        .infos {
-            padding-top: 50px;
-            h1 {
-                font-size: 24px;
-                font-family: var(--font-bold);
-            }
-            p {
-                font-size: 18px;
-                font-family: var(--font-regular);
+        h1 {
+            font-size: 24px;
+            font-family: var(--font-bold);
+        }
+        p {
+            font-size: 18px;
+            font-family: var(--font-regular);
 
-                span {
-                    color: var(--first-color);
-                }
+            span {
+                color: var(--first-color);
             }
         }
     }
@@ -128,8 +129,10 @@ body {
 
     .img2 {
         background-image: url(../img/image-removebg-preview\ 1.png);
-        height: 1595px;
-        background-position:  center;
+        // height: 1595px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
 
@@ -180,11 +183,36 @@ footer {
         a {
             color: #fff;
             text-decoration: none;
-            font-weight: bold;
+            // font-weight: bold;
             
             &:hover {
                 color: var(--first-color)
             }
         }
+    }
+}
+
+@media (max-width: 991px) {    
+    .navbar-expand-lg .navbar-collapse, .mobile {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .img1 {
+        height: 500px;
+    }
+
+    .img2 {
+        display: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .img1 {
+        height: 1006px;
+    }
+
+    .img2 {
+        height: 1595px;
     }
 }
